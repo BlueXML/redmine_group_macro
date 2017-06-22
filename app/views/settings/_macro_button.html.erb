@@ -1,0 +1,29 @@
+<!--#Copyright (C) 2017  Alexandre BOUDINE
+#
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+
+<button class="group_macro_button" type="button" title="<%= l(:group_macro_label) %>" style="margin-left: 4px; background-image: url(../images/group.png);"><span>Group Macro</span></button>
+
+
+<script type="text/javascript">
+	$('.jstElements').append($('.group_macro_button'));
+
+	$('.group_macro_button').on('click', function(){
+		var $txt = jQuery("#settings_welcome_text");
+        var caretPos = $txt[0].selectionStart;
+        var textAreaTxt = $txt.val();
+        var txtToAdd = "\n\n{{group(<%= l(:my_group_label) %>)\n\n}}";
+        $txt.val(textAreaTxt.substring(0, caretPos) + txtToAdd + textAreaTxt.substring(caretPos) );
+	});
+</script>

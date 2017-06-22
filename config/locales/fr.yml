@@ -1,0 +1,5 @@
+# French strings go here for Rails i18n
+fr:
+  my_group_label: MonGroupe
+  group_macro_label: Macro de Groupe
+  no_such_group_error: Le groupe suivant n'existe pas

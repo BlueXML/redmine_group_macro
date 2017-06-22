@@ -1,0 +1,5 @@
+# English strings go here for Rails i18n
+en:
+  my_group_label: MyGroup
+  group_macro_label: Group Macro
+  no_such_group_error: There is no such group as
