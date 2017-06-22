@@ -1,11 +1,11 @@
-#RedMine Group Macro
-##A RedMine plugin
+# RedMine Group Macro
+## A RedMine plugin
 
 This plugin adds a new macro to be used in text fields. It allow users to display text only seen by specified members of a group.
 It might be usefull to create a welcome page adapted according to the connected user (one page for 'customers', one for 'developpers' ...)
 
 
-##Features :
+## Features :
 
 This plugin provides the following features :
 * New macro group
@@ -16,21 +16,21 @@ Languages availables :
 * FR
 
 
-##Use :
+## Use :
 
 	{{group(MyGroup)
 	My multiline Text.
 	}}
 
-##Installation :
+## Installation :
 
 	$cd /path/to/redmine/directory
 	$git clone https://github.com/...
 
-##Compatibility :
+## Compatibility :
 Tested for RedMine 3.3.* (Manually)
 
-##License :
+## License :
 This plugin is licensed under the GNU/GPL license v3.
 
 
