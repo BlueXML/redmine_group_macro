@@ -24,8 +24,8 @@ Languages availables :
 
 ## Installation :
 
-	$cd /path/to/redmine/directory
-	$git clone https://github.com/...
+	$cd /path/to/redmine/directory/plugins
+	$git clone https://github.com/BlueXML/redmine_group_macro.git
 
 ## Compatibility :
 Tested for RedMine 3.3.* (Manually)
