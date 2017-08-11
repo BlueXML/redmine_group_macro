@@ -1,0 +1,5 @@
+# Simplified Chinese strings go here for Rails i18n
+zh:
+  my_group_label: 我的组
+  group_macro_label: 关于组的宏命令
+  no_such_group_error: 组信息不存在
